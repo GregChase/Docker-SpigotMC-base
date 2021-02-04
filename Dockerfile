@@ -1,9 +1,9 @@
 FROM ubuntu:latest as build
-MAINTAINER Sean Johnson <sean@ttys0.net>
+MAINTAINER Greg Chase <greg@gregchase.com>
 
 #Spigot Build
 ENV FILE_BUILDTOOL https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
-ARG SPIGOT_VERSION=1.16.3
+ARG SPIGOT_VERSION=1.16.5
 ENV SPIGOT_REV=${SPIGOT_VERSION}
 ENV SPIGOT_BUILD_REV=${SPIGOT_VERSION}
 
