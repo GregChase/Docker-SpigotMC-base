@@ -1,4 +1,4 @@
-FROM ubuntu:latest as build
+FROM ubuntu:20.04 as build
 MAINTAINER Greg Chase <greg@gregchase.com>
 
 #Spigot Build
