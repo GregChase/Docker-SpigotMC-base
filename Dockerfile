@@ -1,4 +1,4 @@
-FROM ubuntu:20.04 as build
+FROM sha256:de14ad04333bd13b67be947c47b9a61cf2ebd6715f5aae4f8dd59e23c074bde3 as build
 MAINTAINER Greg Chase <greg@gregchase.com>
 
 #Spigot Build
