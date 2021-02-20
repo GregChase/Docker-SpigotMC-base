@@ -16,7 +16,7 @@ RUN java -jar BuildTools.jar --rev ${SPIGOT_BUILD_REV}
 FROM adoptopenjdk/openjdk11:jre
 ARG MEM="2g"
 ENV JVM_OPTS="-Xms${MEM} -Xmx${MEM}"
-ENV SPIGOT_OPTS="nogui --noconsole"
+ENV SPIGOT_OPTS="nogui"
 ARG SPIGOT_VERSION=1.16.5
 ENV SPIGOT_DIR="/minecraft/server"
 
